@@ -1,0 +1,7 @@
+#dicecloud-config {
+    width: 30px;
+    flex: none;
+    background-image: url('../images/dicecloud.png');
+    background-size: 25px;
+    background-position: center;
+}

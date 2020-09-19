@@ -1,0 +1,13 @@
+{
+    "name": "dicecloud-foundry",
+    "title": "Dicecloud Foundry Integration",
+    "description": "Import your characters from dicecloud",
+    "author": "ruthersby",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.0",
+    "url": "https://github.com/ruthersby/dicecloud-foundry",
+    "scripts": ["index.js"],
+    "styles": [
+      "./css/dicecloud-foundry.css"
+    ]
+  }
