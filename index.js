@@ -1,3 +1,5 @@
+
+import DiceCloud from "./lib/import.js";
 console.log("ruthersby load");
 
 Hooks.on("init", function() {
@@ -13,7 +15,9 @@ Hooks.on("ready", function() {
           $(html).find('.window-title').after(button);
 
           button.click(()=> {
-              console.log("Button Clicked");
+            let characterImport = new DiceCloud(data.actor);
+            characterImport.render(true);
+            return true;
           })
       });
   });
