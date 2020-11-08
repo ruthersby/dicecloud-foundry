@@ -10,7 +10,7 @@ Hooks.on("ready", function() {
   console.log("ruthersby ready");
   let pcCharacters = Object.values(CONFIG.Actor.sheetClasses.character).map(s=>s.cls.name);
   pcCharacters.forEach(sheet => {
-      Hooks.on('render'+sheet, (app, html, data) => {
+      Hooks.on('render' + sheet, (app, html, data) => {
           let button = $('<button type="button" id="dicecloud-config" class="dicecloud"/>');
           $(html).find('.window-title').after(button);
 
